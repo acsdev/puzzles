@@ -6,10 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Hello",
+            "name": "BestSum",
             "request": "launch",
-            "mainClass": "Hello",
-            "projectName": "puzzles_6d7eafd3"
+            "mainClass": "course.memoization.sum.BestSum"
+        },
+        {
+            "name": "FCC dynamic.programing",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/go/freecodecamp/dynamic.programming/main.go"
         },
         {
             "name": "SPOJ obitetri",

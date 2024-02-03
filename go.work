@@ -1,0 +1,6 @@
+go 1.21.6
+
+use (
+	./go/freecodecamp/dynamic.programming
+	./go/spoj_obitetri
+)
