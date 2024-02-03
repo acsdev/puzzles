@@ -5,12 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "BestSum",
-            "request": "launch",
-            "mainClass": "course.memoization.sum.BestSum"
-        },
-        {
             "name": "FCC dynamic.programing",
             "type": "go",
             "request": "launch",
