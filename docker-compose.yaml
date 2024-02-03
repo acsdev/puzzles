@@ -5,15 +5,9 @@ services:
     build: .
     container_name: devcontainer_puzzles
     # command RUNS DIRECTLY WHEN docker compose up
-    # .devcontainer/docker-compose.yaml OVERRIDES it for keep the devcontainer open
+    # .devcontainer/docker-compmose.yaml OVERRIDES it for keep the devcontainer open
     # use it, if you want to execute something when you run `docker compose up` without work with devcontainers
     # command: sh -c '<ANY COMMAND'
     volumes:
-      - gopath:/home/vscode/go:rw
-      - dot_m2:/home/vscode/.m2/:rw
-volumes:
-  gopath:
-  # create that volume with command 'docker volume create dot_m2' in the host machine
-  dot_m2:
-    external: true
-    
+      - $HOME/Dev/docker/volumes/go:/home/vscode/go:rw
+      - $HOME/Dev/docker/volumes/.m2:/home/vscode/.m2/:rw
