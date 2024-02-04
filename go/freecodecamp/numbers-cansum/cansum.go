@@ -1,3 +1,9 @@
+// Problem Statement
+// ++++++++++++++++++
+// Given a target sum and an unsorted array of positive integers.
+// Whether it is possible to generate the targetSum using the numbers in the array? — canSum(targetSum, integers)
+// canSum(8, [2,3,5]) => true, [2,2,2,2] or [2, 3, 3] or [3, 5]
+// canSum(8, [3,6,9]) => false
 package main
 
 import (
