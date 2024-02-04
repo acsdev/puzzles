@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "java/freecodecamp/fibonacci",
+        "java/freecodecamp/numbers"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
