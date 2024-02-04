@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "FCC dynamic.programing",
+            "name": "FCC Fibonacci",
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${workspaceFolder}/go/freecodecamp/dynamic.programming/main.go"
+            "program": "${workspaceFolder}/go/freecodecamp/fibonnaci/fibonacci.go"
         },
         {
             "name": "SPOJ obitetri",

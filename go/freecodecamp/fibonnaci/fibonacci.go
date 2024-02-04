@@ -3,7 +3,7 @@
 // Fibonacci sequence is a well-known sequence of numbers that looks something like this 0,1,1,2,3,5,8,13, 21,…..
 //
 // fib(n) = fib(n-1) + fib(n-2) where fib(0) = 0 and fib(1) = 1
-package fibonnaci
+package main
 
 import (
 	"fmt"
@@ -49,7 +49,7 @@ func withTabulation(value int) int {
 	return array[value]
 }
 
-func DoFibonacci(value int) {
+func main() {
 	var now time.Time
 	var result int
 	inputs := [...]int{2, 7, 13, 37}

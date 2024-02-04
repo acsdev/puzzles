@@ -1,5 +1,0 @@
-package sum
-
-func Main() {
-
-}
