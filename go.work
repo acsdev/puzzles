@@ -1,8 +1,8 @@
 go 1.21.6
 
 use (
-	./go/spoj_obitetri
-	./go/spoj_placar
-    ./go/freecodecamp/fibonnaci
-    ./go/freecodecamp/numbers-cansum
+	./code/spoj_obitetri
+	./code/spoj_placar
+    ./code/freecodecamp/fibonnaci/go
+    ./code/freecodecamp/numbers-cansum/go
 )
