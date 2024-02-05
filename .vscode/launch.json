@@ -30,6 +30,26 @@
             "args": [
                 "./main.input"
             ]
+        },
+        {
+            "type": "java",
+            "name": "SPOJ aba12c (java)",
+            "request": "launch",
+            "mainClass": "aba12c.Main",
+            "projectName": "puzzles_6d7eafd3",
+            "args": [
+                "code/spoj_aba12c/input"
+            ]
+        },
+        {
+            "name": "SPOJ aba12c (go)",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/spoj_aba12c/go/main.go",
+            "args": [
+                "../input"
+            ]
         }
     ]
 }
