@@ -3,6 +3,8 @@ go 1.21.6
 use (
 	./code/spoj_obitetri
 	./code/spoj_placar
+	./code/spoj_aba12c/go
+	./code/spoj_test/go
     ./code/freecodecamp/fibonnaci/go
     ./code/freecodecamp/numbers-cansum/go
 )

@@ -3,7 +3,7 @@
         "code/freecodecamp/numbers-cansum/java",
         "code/freecodecamp/fibonnaci/java",
         "code/codegami/closet-to-zero",
-        "code/spoj_aba12c/java"
+        "code/spoj_test/java"
     ],
     "java.debug.settings.vmArgs": "-ea",
     "java.configuration.updateBuildConfiguration": "interactive",
