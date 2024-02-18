@@ -1,5 +1,5 @@
 # in case it is needed internal volumes
 .devcontainer/docker/volumes/
 
-target/
-out/
+# 'compiled' java folder
+.bin
