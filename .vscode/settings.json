@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "code/spoj_test/java",
         "code/freecodecamp/numbers-cansum/java",
         "code/freecodecamp/fibonnaci/java",
         "code/codegami/closet-to-zero",
-        "code/spoj_test/java"
+        "code/spoj_choco/java"
     ],
     "java.debug.settings.vmArgs": "-ea",
     "java.configuration.updateBuildConfiguration": "interactive",

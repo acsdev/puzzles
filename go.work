@@ -5,6 +5,7 @@ use (
 	./code/spoj_placar
 	./code/spoj_aba12c/go
 	./code/spoj_test/go
+	./code/spoj_chocopj09/go
     ./code/freecodecamp/fibonnaci/go
     ./code/freecodecamp/numbers-cansum/go
 )
