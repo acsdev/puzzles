@@ -7,5 +7,5 @@ use (
 	./code/spoj_test/go
 	./code/spoj_chocopj09/go
     ./code/freecodecamp/fibonnaci/go
-    ./code/freecodecamp/numbers-cansum/go
+    ./code/freecodecamp/numbers_cansum/go
 )

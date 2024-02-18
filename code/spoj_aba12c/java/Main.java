@@ -1,4 +1,4 @@
-package aba12c;
+package spoj_aba12c.java;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.function.Function;
 
-public class Main {
+class Main {
 
     // private record Data(int nrFriends, int nrKilograms, List<Integer> packList, Map<Integer, Integer> KgPrice) {
     // }

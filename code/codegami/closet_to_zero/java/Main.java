@@ -1,3 +1,5 @@
+package codegami.closet_to_zero.java;
+
 // In this exercise, you have to analyze records of temperature to find the closest to zero.
 //    
 // Sample temperatures. Here, -1 is the closest to 0.
@@ -21,12 +23,13 @@
 //     1 -2 -8 4 5
 //     Output
 //     1
-//  
+// 
+
 import java.util.Map;
 import java.util.Scanner;
 import java.util.function.Consumer;
 
-public class ClosestToZero {
+class Main {
     
     public static void main(String[] args) {
 

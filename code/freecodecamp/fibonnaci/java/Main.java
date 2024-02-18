@@ -1,3 +1,5 @@
+package freecodecamp.fibonnaci.java;
+
 // This section will dissect a Dynamic Programming problem called Fibonacci sequence to illustrate the above 2 very important concepts.
 //
 // Fibonacci sequence is a well-known sequence of numbers that looks something like this 0,1,1,2,3,5,8,13, 21,…..
@@ -14,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 import java.util.stream.IntStream;
 
-public class Fibonacc {
+class Main {
 
     public static int withRecursion(int number) { // O(2^n)
         if (number <= 2) return 1;

@@ -6,27 +6,64 @@
     "configurations": [
         {
             "type": "java",
-            "name": "ChocoPJ09",
+            "name": "[java] ClosestToZero",
             "request": "launch",
-            "mainClass": "ChocoPJ09",
-            "projectName": "puzzles_6d7eafd3"
+            "mainClass": "codegami.closet_to_zero.java.Main",
+            "cwd": "${workspaceFolder}/code"
         },
         {
             "type": "java",
-            "name": "SpojTest",
+            "name": "[java] Fibonacci",
             "request": "launch",
-            "mainClass": "SpojTest",
-            "projectName": "puzzles_6d7eafd3"
+            "mainClass": "freecodecamp.fibonnaci.java.Main",
+            "cwd": "${workspaceFolder}/code"
         },
         {
-            "name": "FCC Fibonacci",
+            "type": "java",
+            "name": "[java] Numbers CanSum",
+            "request": "launch",
+            "mainClass": "freecodecamp.numbers_cansum.java.Main",
+            "cwd": "${workspaceFolder}/code"
+        },
+        {
+            "type": "java",
+            "name": "[java] SPOJ ChocoPJ09",
+            "request": "launch",
+            "mainClass": "spoj_chocopj09.java.Main",
+            "cwd": "${workspaceFolder}/code",
+            "args": [
+                "${workspaceFolder}/code/spoj_chocopj09/input"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "[java] SPOJ Test",
+            "request": "launch",
+            "mainClass": "spoj_test.java.Main",
+            "cwd": "${workspaceFolder}/code",
+            "args": [
+                "${workspaceFolder}/code/spoj_test/input"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "[java] SPOJ aba12c",
+            "request": "launch",
+            "mainClass": "spoj_aba12c.java.Main",
+            "cwd": "${workspaceFolder}/code",
+            "args": [
+                "${workspaceFolder}/code/spoj_aba12c/input"
+            ]
+        },
+        {
+            "name": "[go] FCC Fibonacci",
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${workspaceFolder}/code/freecodecamp/fibonnaci/go/fibonacci.go"
+            "program": "${workspaceFolder}/code/freecodecamp/fibonnaci/go/main.go"
         },
         {
-            "name": "SPOJ obitetri",
+            "name": "[go] SPOJ obitetri",
             "type": "go",
             "request": "launch",
             "mode": "debug",
@@ -36,7 +73,7 @@
             ]
         },
         {
-            "name": "SPOJ placar",
+            "name": "[go] SPOJ placar",
             "type": "go",
             "request": "launch",
             "mode": "debug",
@@ -46,17 +83,7 @@
             ]
         },
         {
-            "type": "java",
-            "name": "SPOJ aba12c (java)",
-            "request": "launch",
-            "mainClass": "aba12c.Main",
-            "projectName": "puzzles_6d7eafd3",
-            "args": [
-                "code/spoj_aba12c/input"
-            ]
-        },
-        {
-            "name": "SPOJ aba12c (go)",
+            "name": "[go] SPOJ aba12ci",
             "type": "go",
             "request": "launch",
             "mode": "debug",
@@ -66,7 +93,17 @@
             ]
         },
         {
-            "name": "SPOJ test",
+            "name": "[go] SPOJ chocopj09",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/spoj_chocopj09/go/main.go",
+            "args": [
+                "../input"
+            ]
+        }
+        {
+            "name": "[go] SPOJ test",
             "type": "go",
             "request": "launch",
             "mode": "debug",

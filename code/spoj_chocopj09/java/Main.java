@@ -1,9 +1,11 @@
+package spoj_chocopj09.java;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.function.Function;
 
-class ChocoPJ09 
+class Main
 {
     public static void main(String[] args) {
         Function<String[], Scanner> getScanner = (array) -> {

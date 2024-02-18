@@ -1,3 +1,5 @@
+package freecodecamp.numbers_cansum.java;
+
 /**
 Problem Statement
 ++++++++++++++++++
@@ -20,7 +22,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
-public class NumbersCanSum {
+class Main {
 
     /*
      * Time complexity: O(n) * O(n) => O(n^2)

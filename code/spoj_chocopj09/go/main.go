@@ -10,7 +10,17 @@ import (
 
 func main() {
 
-	scanner := bufio.NewScanner(os.Stdin)
+	var scanner *bufio.Scanner
+	if len(os.Args) == 2 {
+		f, err := os.Open(os.Args[1])
+		if err != nil {
+			panic(err)
+		}
+		defer f.Close()
+		scanner = bufio.NewScanner(f)
+	} else {
+		scanner = bufio.NewScanner(os.Stdin)
+	}
 	scanner.Scan()
 
 	input := strings.Split(scanner.Text(), " ")
