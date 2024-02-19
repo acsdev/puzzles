@@ -27,6 +27,16 @@
         },
         {
             "type": "java",
+            "name": "[java] SPOJ ACIDO",
+            "request": "launch",
+            "mainClass": "spoj_acido.java.Main",
+            "cwd": "${workspaceFolder}/code",
+            "args": [
+                "${workspaceFolder}/code/spoj_acido/input"
+            ]
+        },
+        {
+            "type": "java",
             "name": "[java] SPOJ ChocoPJ09",
             "request": "launch",
             "mainClass": "spoj_chocopj09.java.Main",
@@ -93,6 +103,16 @@
             ]
         },
         {
+            "name": "[go] SPOJ acido",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/spoj_acido/go/main.go",
+            "args": [
+                "../input"
+            ]
+        },
+        {
             "name": "[go] SPOJ chocopj09",
             "type": "go",
             "request": "launch",
@@ -101,7 +121,7 @@
             "args": [
                 "../input"
             ]
-        }
+        },
         {
             "name": "[go] SPOJ test",
             "type": "go",
