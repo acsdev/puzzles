@@ -12,3 +12,8 @@ make prepare-volumes
 
 ```.vscode``` keeps a few workpsace configurations
 - the property ```java.project.sourcePaths``` allows to have diferent directories as source folders under the java project
+
+
+## JAVA and SPOJ
+
+To run those code in Java at SPOJ please remove the class package, other wise you will get NZEC error.
