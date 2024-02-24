@@ -1,6 +1,7 @@
 go 1.21.6
 
 use (
+	./code/random/binary_tree_mirror/go
 	./code/spoj_aba12c/go
 	./code/spoj_acido/go
 	./code/spoj_chocopj09/go
