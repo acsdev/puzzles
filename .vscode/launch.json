@@ -73,26 +73,6 @@
             "program": "${workspaceFolder}/code/freecodecamp/fibonnaci/go/main.go"
         },
         {
-            "name": "[go] SPOJ obitetri",
-            "type": "go",
-            "request": "launch",
-            "mode": "debug",
-            "program": "${workspaceFolder}/code/spoj_obitetri/main.go",
-            "args": [
-                "./main.input"
-            ]
-        },
-        {
-            "name": "[go] SPOJ placar",
-            "type": "go",
-            "request": "launch",
-            "mode": "debug",
-            "program": "${workspaceFolder}/code/spoj_placar/main.go",
-            "args": [
-                "./main.input"
-            ]
-        },
-        {
             "name": "[go] SPOJ aba12ci",
             "type": "go",
             "request": "launch",
@@ -118,6 +98,36 @@
             "request": "launch",
             "mode": "debug",
             "program": "${workspaceFolder}/code/spoj_chocopj09/go/main.go",
+            "args": [
+                "../input"
+            ]
+        },
+        {
+            "name": "[go] SPOJ obitetri",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/spoj_obitetri/main.go",
+            "args": [
+                "./main.input"
+            ]
+        },
+        {
+            "name": "[go] SPOJ placar",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/spoj_placar/main.go",
+            "args": [
+                "./main.input"
+            ]
+        },
+        {
+            "name": "[go] SPOJ rouba",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/spoj_rouba/go/main.go",
             "args": [
                 "../input"
             ]
