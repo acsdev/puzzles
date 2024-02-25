@@ -1,4 +1,4 @@
-package main
+package mirror
 
 type Node struct {
 	val   int

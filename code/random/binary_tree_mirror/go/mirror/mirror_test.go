@@ -1,4 +1,4 @@
-package main
+package mirror
 
 import (
 	"testing"
@@ -6,7 +6,7 @@ import (
 	"gotest.tools/assert"
 )
 
-func TestIsMirror(t *testing.T) {
+func TestMirrorIs(t *testing.T) {
 
 	root := &Node{
 		val: 1,
@@ -34,7 +34,7 @@ func TestIsMirror(t *testing.T) {
 	assert.Equal(t, result, true)
 }
 
-func TestIsNotMirror(t *testing.T) {
+func TestMirrorIsNot(t *testing.T) {
 
 	root := &Node{
 		val: 1,

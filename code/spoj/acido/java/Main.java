@@ -57,7 +57,7 @@ class Main {
             try (reader) {
                 while (true) {
                     String line = reader.readLine();
-                    if (line.isEmpty() || line.isBlank()) {
+                    if (line == null || line.isEmpty() || line.isBlank()) {
                         break;
                     } 
                     

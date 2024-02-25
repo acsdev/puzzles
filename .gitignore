@@ -3,3 +3,5 @@
 
 # 'compiled' java folder
 .bin
+*.class
+target/
