@@ -1,4 +1,4 @@
-package spoj_chocopj09.java;
+package spoj.chocopj09.java;
 
 import java.io.File;
 import java.io.IOException;

@@ -2,13 +2,13 @@ go 1.21.6
 
 use (
 	./code/random/binary_tree_mirror/go
-	./code/spoj_aba12c/go
-	./code/spoj_acido/go
-	./code/spoj_chocopj09/go
-	./code/spoj_obitetri
-	./code/spoj_placar
-	./code/spoj_rouba/go
-	./code/spoj_test/go
+	./code/spoj/aba12c/go
+	./code/spoj/acido/go
+	./code/spoj/chocopj09/go
+	./code/spoj/obitetri/go
+    ./code/spoj/placar/go
+	./code/spoj/rouba/go
+	./code/spoj/test/go
     ./code/freecodecamp/fibonnaci/go
     ./code/freecodecamp/numbers_cansum/go
 )

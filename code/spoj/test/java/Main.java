@@ -1,4 +1,4 @@
-package spoj_test.java;
+package spoj.test.java;
 
 import java.io.File;
 import java.io.IOException;

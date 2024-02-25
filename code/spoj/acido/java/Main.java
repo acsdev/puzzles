@@ -1,4 +1,4 @@
-package spoj_acido.java;
+package spoj.acido.java;
 
 import java.io.BufferedReader;
 import java.io.File;

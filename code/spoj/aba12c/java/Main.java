@@ -1,4 +1,4 @@
-package spoj_aba12c.java;
+package spoj.aba12c.java;
 
 import java.io.File;
 import java.io.IOException;
