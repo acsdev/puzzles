@@ -2,7 +2,7 @@
 
 Make sure to have docker external volumes created
 
-```
+```shell
 make prepare-volumes
 ```
 
@@ -11,14 +11,20 @@ make prepare-volumes
 ```go.work``` allows to have one workspace with multiple golang independent modules
 
 ```.vscode``` keeps a few workpsace configurations
-- the property ```java.project.sourcePaths``` allows to have diferent directories as source folders under the java project
 
+## TIPS
 
-## JAVA and SPOJ
+- Before run java from vscode debug engine
 
-To run those code in Java at SPOJ please remove the class package, other wise you will get NZEC error.
+  - Run ```mvn clean compile```
+
+- JAVA and SPOJ
+
+  - To run those code in Java at SPOJ please remove the class package, other wise you will get NZEC error.
 
 ## Project Structure
+
+```plain
 
 └── code
     ├── codegami
