@@ -1,3 +1,7 @@
 {
-    "java.autobuild.enabled": true
+    "java.autobuild.enabled": true,
+    "java.project.resourceFilters": [
+        "go"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
