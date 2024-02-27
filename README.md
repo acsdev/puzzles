@@ -8,6 +8,8 @@ make prepare-volumes
 
 ## Config files
 
+```pom.xml``` config java files to work as a single project on vscode
+
 ```go.work``` allows to have one workspace with multiple golang independent modules
 
 ```.vscode``` keeps a few workpsace configurations

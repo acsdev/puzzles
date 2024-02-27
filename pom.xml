@@ -16,6 +16,22 @@
 
     <build>
         <sourceDirectory>code</sourceDirectory>
+        
+        <resources>
+            <resource>
+                <directory>code</directory>
+                <includes>
+                    <include>*.java</include>
+                    <include>input</include>
+                </includes>
+                <excludes>
+                    <exclude>*.go</exclude>
+                    <exclude>*.mod</exclude>
+                    <exclude>*.sum</exclude>
+                </excludes>
+            </resource>
+        </resources>
+        
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
