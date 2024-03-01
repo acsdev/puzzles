@@ -11,4 +11,5 @@ use (
 	./code/spoj/test/go
     ./code/freecodecamp/fibonnaci/go
     ./code/freecodecamp/numbers_cansum/go
+    ./code/kattis/2048/go
 )

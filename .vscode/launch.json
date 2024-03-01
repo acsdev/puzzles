@@ -82,6 +82,17 @@
             "program": "${workspaceFolder}/code/freecodecamp/fibonnaci/go/main.go"
         },
         {
+            "name": "[go] kattis 2048",
+            "type": "go",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "mode": "debug",
+            "program": "${workspaceFolder}/code/kattis/2048/go/main.go",
+            "args": [
+                "../inputs/input"
+            ]
+        },
+        {
             "name": "[go] SPOJ aba12ci",
             "type": "go",
             "request": "launch",
