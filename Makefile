@@ -29,6 +29,12 @@ run-java-spoj-test:
 run-go-freecodecamp-fibonnaci:
 	cd code/freecodecamp/fibonnaci/go && go run main.go
 
+run-go-kattis-3dprinter:
+	cd code/kattis/3dprinter/go && go run main.go ../input
+
+run-go-kattis-2048:
+	cd code/kattis/2048/go && go run main.go ../inputs/input
+
 run-go-random-binary-tree-mirror:
 	cd code/random/binary_tree_mirror/go/mirror && go test -v -run "^TestMirror*" 
 
