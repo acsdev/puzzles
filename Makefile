@@ -17,6 +17,9 @@ run-java-freecodecamp-numbers_cansum:
 run-java-gnirut-valid-words:
 	cd code/gnirut/valid_words/java && java Main.java
 
+run-java-gnirut-perfect-matches:
+	cd code/gnirut/perfect_matches/java && java Main.java
+
 run-java-spoj-aba12c:
 	cd code/spoj/aba12c/java && java Main.java ../input
 
@@ -34,6 +37,9 @@ run-go-freecodecamp-fibonnaci:
 
 run-go-gnirut-valid-words:
 	cd code/gnirut/valid_words/go && go run main.go
+
+run-go-gnirut-perfect-matches:
+	cd code/gnirut/perfect_matches/go && go run main.go
 
 run-go-kattis-3dprinter:
 	cd code/kattis/3dprinter/go && go run main.go ../input

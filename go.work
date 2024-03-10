@@ -12,6 +12,7 @@ use (
     ./code/freecodecamp/fibonnaci/go
     ./code/freecodecamp/numbers_cansum/go
     ./code/gnirut/valid_words/go
+    ./code/gnirut/perfect_matches/go
     ./code/kattis/3dprinter/go
     ./code/kattis/2048/go
 )
