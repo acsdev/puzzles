@@ -41,6 +41,9 @@ run-go-gnirut-valid-words:
 run-go-gnirut-perfect-matches:
 	cd code/gnirut/perfect_matches/go && go run main.go
 
+run-go-gnirut-sort-arrays:
+	cd code/gnirut/sort_arrays/go && go run main.go
+
 run-go-kattis-3dprinter:
 	cd code/kattis/3dprinter/go && go run main.go ../input
 

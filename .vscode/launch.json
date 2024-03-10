@@ -7,20 +7,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "gnirut.perfect_matches.java.Main",
-            "projectName": "your-project-name"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "gnirut.valid_words.java.Main",
-            "projectName": "your-project-name"
-        },
-        {
-            "type": "java",
             "name": "[java] ClosestToZero",
             "request": "launch",
             "console": "integratedTerminal",
