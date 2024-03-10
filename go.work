@@ -11,5 +11,7 @@ use (
 	./code/spoj/test/go
     ./code/freecodecamp/fibonnaci/go
     ./code/freecodecamp/numbers_cansum/go
+    ./code/gnirut/valid_words/go
+    ./code/kattis/3dprinter/go
     ./code/kattis/2048/go
 )
